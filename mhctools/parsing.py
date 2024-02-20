@@ -596,7 +596,7 @@ def parse_netmhciipan4_stdout(
         offset_index=0,
         peptide_index=2,
         allele_index=1,
-        ic50_index=11 if mode == "binding_affinity" else None,
+        ic50_index=11,
         rank_index=8 if mode == "elution_score" else 12,
         score_index=7 if mode == "elution_score" else 10,
         transforms=transforms)
