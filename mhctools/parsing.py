@@ -317,9 +317,12 @@ def parse_netmhc41_stdout(
         offset_index=0,
         peptide_index=2,
         allele_index=1,
-        ic50_index=15 if mode == "binding_affinity" else None,
-        rank_index=14 if mode == "binding_affinity" else 12,
-        score_index=13 if mode == "binding_affinity" else 11)
+	ic50_index=15,
+	rank_index=12,
+	score_index=11)
+        #ic50_index=15 if mode == "binding_affinity" else None,
+        #rank_index=14 if mode == "binding_affinity" else 12,
+        #score_index=13 if mode == "binding_affinity" else 11)
 
 def parse_netmhcpan28_stdout(
         stdout,
