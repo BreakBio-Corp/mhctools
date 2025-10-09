@@ -56,7 +56,7 @@ if __name__ == '__main__':
         install_requires=[
             'numpy>=1.7,<2.0',
             'pandas>=0.13.1',
-            'varcode>=0.5.9',
+            'varcode @ git+https://github.com/BreakBio-Corp/varcode.git',
             'pyensembl>=1.0.3',
             'sercol>=0.0.2',
             'mhcflurry>=2.0.0',
